@@ -629,3 +629,60 @@ padding: 30px 50px;
     margin-top: -17px;
 }
 /*--===testomonial-end===--*/
+
+/*---===news-letter-css-start===---*/
+
+.news-box{
+    padding: 70px 40px 100px 40px;
+    background: url("../IMG/bg-1.png");
+    border-radius: 50px;
+    position: relative;
+}
+.news-box::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #03132D;
+    
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50px;
+}
+.news-box h2{
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family:'Rajdhani', sans-serif;
+   
+    
+}
+
+   
+
+.news-box input{
+    padding: 17px 70px;
+    margin-bottom: 70px;
+    position: relative;
+    border-radius: 5px 0 0 5px;
+    border-style: none;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.news-box a{
+    text-decoration: none;
+    background: #ff630e;
+    padding: 14px;
+    position: absolute;
+    right: 420px;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-weight: 700;
+}
+.search{
+    margin-left: 80px;
+}
