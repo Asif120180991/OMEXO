@@ -763,7 +763,7 @@ padding: 30px 50px;
 }
 /*--==about-css-end==--*/
 
-/*---===trainer-css===---*/
+/*---===trainer-css-start===---*/
 
 .trainer-img-1{
     background: url("../IMG/instructor-1-1.jpg");
@@ -837,3 +837,73 @@ padding: 30px 50px;
 .trainer-icon a:hover{
     color: #03132D;
 }
+/*---===trainer-css-end===---*/
+
+/*---===latest-news-css-start===---*/
+.latest-news{
+    background:#fff ;
+}
+.latest-news-box{
+    box-shadow: -3px 1px 15px 13px rgba(0,0,0,0.08);
+-webkit-box-shadow: -3px 1px 15px 13px rgba(0,0,0,0.08);
+-moz-box-shadow: -3px 1px 15px 13px rgba(0,0,0,0.08);
+
+  transition: 0.2s;
+}
+
+.latest-news-box:hover{
+    
+Inset
+box-shadow: 1px -1px 5px 13px rgba(0,0,0,0.08);
+-webkit-box-shadow: 1px -1px 5px 13px rgba(0,0,0,0.08);
+-moz-box-shadow: 1px -1px 5px 13px rgba(0,0,0,0.08);
+}
+.latest-news-img img{
+    width: 360px;
+    height: 226px;
+}
+.latest-news-content{
+    padding: 35px;
+}
+.latest-news-content ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+.latest-news-content li{
+    margin-right: 20px;
+    
+}
+.latest-news-content li i{
+    color: #ff630e;
+    margin-right: 5px;
+}
+.latest-news-content span{
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #696969;
+}
+.latest-news-content h2{
+    tab-size: 24px;
+    line-height: 34px;
+    color: ##130F40;
+    font-weight: 700;
+    font-family:'Rajdhani', sans-serif;
+    margin-bottom: 10px;
+    transition:0.3s;
+}
+.latest-news-content p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color:#696969 ;
+    tab-size: 16px;
+    line-height: 28px;
+
+}
+.latest-news-content h2:hover{
+
+     color: #ff630e;
+
+}
+/*---===latest-news-css-end===---*/
