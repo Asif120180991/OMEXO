@@ -82,6 +82,12 @@ container-full{
     float: left;
     padding: 0 15px;
 }
+.col-15{
+    width: 15%;
+    float: left;
+    padding: 0 15px;
+}
+
 
 .container:before,
 .container:after,
@@ -907,3 +913,26 @@ box-shadow: 1px -1px 5px 13px rgba(0,0,0,0.08);
 
 }
 /*---===latest-news-css-end===---*/
+.footer{
+    background: #0e0a38;
+}
+.footer-single a img{
+   
+      margin-bottom: 15px;
+      width: 160px;
+      height: 36px;
+
+}
+.footer-single p{
+
+    font-size: 16px;
+    line-height: 28px;
+    color: #DEDEDE;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.footer h6{
+    color: #DEDEDE;
+}
