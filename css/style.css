@@ -732,3 +732,25 @@ padding: 30px 50px;
     line-height: 20px;
     color: #696969; 
 }
+.about-left a{
+    background: #ff630e;
+    padding: 15px 25px;
+    margin-top: 30px;
+    font-family:'Rajdhani', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#FFFFFF ;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.about-left a:hover{
+   background-color: #130F40;
+}
+.about{
+    background: #ffffff;
+}
+/*--==about-css-end==--*/
